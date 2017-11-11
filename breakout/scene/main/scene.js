@@ -80,6 +80,7 @@ class SceneMain extends GuaScene {
       var paddle = this.paddle
       var blocks = this.blocks
       var game = this.game
+      var score = this.score
 
       if (window.paused) {
           return
